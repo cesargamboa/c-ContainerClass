@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ff_cesar/CLionProjects/PracticaArrays/Heroes.h
+string
+-
+
+/Users/ff_cesar/CLionProjects/PracticaArrays/cmake-build-debug/Contenedor.cpp
+Contenedor.h
+/Users/ff_cesar/CLionProjects/PracticaArrays/cmake-build-debug/Contenedor.h
+
+/Users/ff_cesar/CLionProjects/PracticaArrays/cmake-build-debug/Contenedor.h
+../Heroes.h
+/Users/ff_cesar/CLionProjects/PracticaArrays/Heroes.h
+iostream
+-
+
+/Users/ff_cesar/CLionProjects/PracticaArrays/main.cpp
+iostream
+-
+Heroes.h
+/Users/ff_cesar/CLionProjects/PracticaArrays/Heroes.h
+./cmake-build-debug/Contenedor.h
+/Users/ff_cesar/CLionProjects/PracticaArrays/cmake-build-debug/Contenedor.h
+
